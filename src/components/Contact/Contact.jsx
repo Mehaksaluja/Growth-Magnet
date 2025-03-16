@@ -9,28 +9,28 @@ import white_arrow from "../../assets/white-arrow.png";
 const Contact = () => {
   const [result, setResult] = React.useState("");
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
+  // const onSubmit = async (event) => {
+  //   event.preventDefault();
+  //   setResult("Sending....");
+  //   const formData = new FormData(event.target);
 
-    formData.append("access_key", "96c827f7-9c36-42ef-b7f7-97e650f54491");
+  //   formData.append("access_key", "");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+  //   const response = await fetch("https://api.web3forms.com/submit", {
+  //     method: "POST",
+  //     body: formData,
+  //   });
 
-    const data = await response.json();
+  //   const data = await response.json();
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
+  //   if (data.success) {
+  //     setResult("Form Submitted Successfully");
+  //     event.target.reset();
+  //   } else {
+  //     console.log("Error", data);
+  //     setResult(data.message);
+  //   }
+  // };
 
   return (
     <div className="contact" id="contact">
@@ -64,7 +64,7 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-col">
-        <form onSubmit={onSubmit}>
+        <form /*onSubmit={onSubmit}*/>
           <label>Your name</label>
           <input
             type="text"
@@ -91,7 +91,7 @@ const Contact = () => {
             <img src={white_arrow} alt="" />
           </button>
         </form>
-        <span>{result}</span>
+        {/* <span>{result}</span> */}
       </div>
     </div>
   );
