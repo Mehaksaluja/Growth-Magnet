@@ -45,7 +45,6 @@
   border-radius: 10px;
   color: #676767;
   line-height: 1.4;
-  max-height: 250px;
 }
 
 .slide img {
@@ -96,11 +95,5 @@
   }
   .slider p {
     font-size: 12px;
-  }
-}
-
-@media (max-width: 500px) {
-  .slide {
-    text-overflow: hidden;
   }
 }

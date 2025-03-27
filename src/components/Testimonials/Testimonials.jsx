@@ -48,8 +48,7 @@ const Testimonials = () => {
               <p>
                 This team transformed my LinkedIn presence! Their expert
                 marketing strategies boosted my visibility, engagement, and
-                high-quality leads. In just a few months, I saw a significant
-                rise in inbound inquiries. Highly recommend their services!
+                high-quality leads.
               </p>
             </div>
           </li>
@@ -64,9 +63,8 @@ const Testimonials = () => {
               </div>
               <p>
                 This team made Instagram growth effortless! Their content
-                strategy, profile optimization, and targeted ads boosted my
-                reach, engagement, and followers. Now, my brand stands
-                out—highly recommend their expertise!
+                strategy, profile optimization, & targeted ads boosted my reach,
+                engagement, & followers.
               </p>
             </div>
           </li>
@@ -82,8 +80,7 @@ const Testimonials = () => {
               <p>
                 This team revolutionized my content strategy! Their research,
                 creativity, and brand alignment attracted the right audience and
-                boosted my credibility. Every piece was engaging and
-                impactful—highly recommend them!
+                boosted my credibility.
               </p>
             </div>
           </li>
@@ -99,8 +96,7 @@ const Testimonials = () => {
               <p>
                 This team exceeded my expectations! They built a stunning,
                 user-friendly, and SEO-optimized website that boosted my
-                business’s online presence. Their expertise made the process
-                seamless—highly recommended!
+                business’s online presence.
               </p>
             </div>
           </li>
